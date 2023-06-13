@@ -17,7 +17,7 @@ As a BI Developer for Northwind Traders, the primary objective is to develop a h
 
 ### **Part 1:**
 
-To achieve this objective, the project follows a real-world scenario where data is stored in the cloud and data pipelines are employed for automation. The dataset is uploaded into AWS S3 buckets , and Database, schema, and Snowpipe(data pipeline) are created in Snowflake to facilitate efficient data ingestion.
+To achieve this objective, the project attempts to follow a real-world scenario where data is stored in the cloud and data pipelines are employed for automation. The dataset is uploaded into AWS S3 buckets , and Database, schema, and Snowpipe(data pipeline) are created in Snowflake to facilitate efficient data ingestion.
 Power BI is utilized for data import using the IMPORT method, which offers advantages such as improved query performance, version control and handling Data manipulations. Power Query is used for data cleaning, manipulation, and data modeling to establish relationships between different entities within the dataset.
 
 ### **Part 2:**
