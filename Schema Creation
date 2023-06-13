@@ -1,0 +1,92 @@
+# Schema for North wind Traders
+
+
+CREATE DATABASE NorthwindDB;
+Use NorthwindDB;
+
+
+CREATE TABLE customers (
+  customerID varchar (20), 
+  companyName varchar(40), 
+  contactName varchar (25), 
+  contactTitle varchar (30), 
+  city varchar (25), 
+  country varchar (20)
+);
+
+--------------------------------------------
+
+CREATE TABLE employees (
+  employeeID INTEGER, 
+  employeeName VARCHAR(20), 
+  title VARCHAR(20), 
+  city VARCHAR(10), 
+  country VARCHAR(8), 
+  reportsTo INTEGER
+);
+
+--------------------------------------------
+
+CREATE TABLE categories (
+  categoryID INTEGER, 
+  categoryName VARCHAR(30), 
+  description VARCHAR(70)
+);
+
+--------------------------------------------
+
+CREATE TABLE orderdetails (
+  orderID varchar, 
+  productID INTEGER, 
+  unitPrice DECIMAL(10, 2), 
+  quantity INTEGER, 
+  discount DECIMAL(4, 2)
+);
+
+--------------------------------------------
+
+CREATE TABLE orders (
+  orderID int, 
+  customerID varchar(20), 
+  employeeID int, 
+  orderDate DATE, 
+  requiredDate DATE, 
+  shippedDate DATE, 
+  shipperID INT, 
+  freight float
+);
+
+--------------------------------------------
+
+CREATE TABLE products (
+  ProductID INT, 
+  ProductName VARCHAR (35), 
+  QuantityPerUnit VARCHAR(30), 
+  UnitPrice FLOAT, 
+  Discontinued INT, 
+  categoryID INT
+);
+
+--------------------------------------------
+
+CREATE TABLE shippers(
+  shipperID INTEGER, 
+  companyName VARCHAR(20)
+);
+
+--------------------------------------------
+
+CREATE FILE FORMAT my_csv_format
+TYPE = CSV
+COMPRESSION = NONE 
+FIELD_DELIMITER = ',' 
+RECORD_DELIMITER = '\n'
+SKIP_HEADER = 1 
+FIELD_OPTIONALLY_ENCLOSED_BY = '"' 
+TRIM_SPACE = FALSE 
+ERROR_ON_COLUMN_COUNT_MISMATCH = TRUE;
+
+show warehouses;
+
+
+
