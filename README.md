@@ -22,10 +22,16 @@ Power BI is utilized for data import using the IMPORT method, which offers advan
 
 ### **Part 2:**
 
-In the second phase of the project, the data is categorized into four main areas: revenue patterns, product metrics, key customers, and freight analysis.  Analytics techniques like ABC classification and RFM analysis, are applied to extract valuable insights.
+In the second phase of the project, the data is categorized into four main areas: 
+* Revenue patterns
+* Product metrics
+* Key customers
+* Freight analysis.
 
-* ABC Classification: This technique categorizes products based on their revenue contribution, assigning them into groups such as "A" for high-value products, "B" for medium-value products, and "C" for low-value products. This helps in understanding the importance and impact of different products on overall revenue.
- * RFM Analysis: RFM stands for Recency, Frequency, Monetary, and it is used to segment customers based on their transactional behavior. By analyzing the recency of customer purchases, their frequency of purchases, and the monetary value of their transactions, customers can be segmented into different groups, such as "VIP" customers, "Regular" customers, and "Churned" customers. This segmentation allows for targeted marketing and customer retention strategies.
+Analytics techniques like ABC classification and RFM analysis, are applied to extract valuable insights.
+
+> * ABC Classification: This technique categorizes products based on their revenue contribution, assigning them into groups such as "A" for high-value products, "B" for medium-value products, and "C" for low-value products. This helps in understanding the importance and impact of different products on overall revenue.
+ > * RFM Analysis: RFM stands for Recency, Frequency, Monetary, and it is used to segment customers based on their transactional behavior. By analyzing the recency of customer purchases, their frequency of purchases, and the monetary value of their transactions, customers can be segmented into different groups, such as "VIP" customers, "Regular" customers, and "Churned" customers. This segmentation allows for targeted marketing and customer retention strategies.
 
 
 The insights obtained from these analyses are then translated into meaningful visualizations using Power BI. The resulting KPI dashboard provides a comprehensive view of sales trends, product performance, key customers, and shipping costs. It not only empowers the executive team to make informed business decisions but also enables ongoing analysis and decision-making as new data is incorporated.
